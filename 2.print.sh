@@ -14,8 +14,8 @@ echo -e "\e[36m Hello world
 #Syntax : echo -e "\e[36m -e "\e[COLCODEmMessage\e[0m"
 
 # -e is to enable \e
-# \e[COLCODEm -&> \e[31m this is to enable the clour
-#\e[0m - &> this is to disable the code
+# \e[COLCODEm -&>> \e[31m this is to enable the clour
+#\e[0m - &>> this is to disable the code
 
 echo -e "\e[36m -e "\e[31mHello World\e[0m"
 echo -e "\e[36m -e "\e[32mHello World\e[0m"
