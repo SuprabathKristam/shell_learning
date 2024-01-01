@@ -3,6 +3,6 @@
 echo The name of the Script is $0 # this gives the name of the script with in the script
 echo first arugument is $1 # This gives first argument
 echo second argument is $2 # This gives the second argument
-echo $*  # This will give all arguments
-echo $# # This will give the count of total number of arguments
+echo All Arguments $*  # This will give all arguments
+echo Total number of arguments $# # This will give the count of total number of arguments
 
