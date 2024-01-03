@@ -20,6 +20,8 @@ sample_sum 30 49
 ## Inside main program all special vars(0 -n,*,# ) which are passed to the scripts are not accessible
 #inside the function
 
+##In functions we use return command to exit from the function and send the exit status of the function
+#and it will return to the main program
 simple2(){
   echo "Hello World"
   return
