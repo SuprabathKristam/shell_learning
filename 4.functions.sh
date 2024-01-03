@@ -17,3 +17,14 @@ sample_sum(){
 
 sample_sum 30 49
 
+## Inside main program all special vars(0 -n,*,# ) which are passed to the scripts are not accessible
+#inside the function
+
+simple2(){
+  echo "Hello World"
+  return
+  echo "hello world"
+}
+
+simple2
+
