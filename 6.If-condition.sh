@@ -29,9 +29,13 @@
  #Operators
  # = , ==  -> this will check if both the string are same
  # != - > this will check if both strings are not same
- # Ex : [ a = b] [ a != b ] ,[ $x = abc ]
+ # -z -> This will hep to check if variable is empty
+
+ # Ex : [ a = b] [ a != b ] ,[ $x = abc ] , [ -z "$var" ]
+
+#Note : If anywhere in expression if you see variable provide double quotes
 
 input=$1
-if [ $1 = Devops ]; then
+if [ "$input" = Devops ]; then
    echo "Welcome to DevOps training"
 fi
