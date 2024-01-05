@@ -24,7 +24,7 @@
 #fi
 
 ##Expressions
-#String checks:
+#1.String checks:
 # [ string {operator} string ]
  #Operators
  # = , ==  -> this will check if both the string are same
@@ -43,3 +43,14 @@ input=$1
 if [ "$input" = Devops ]; then
    echo "Welcome to DevOps training"
 fi
+
+#2. Number Checks
+# Operators :
+# -eq   = equal to , -ne  = not equal to
+# -gt = greater than , -ge = greater than equal to
+# -lt = less than , -le = less than equal to
+
+#3. File checks
+#Operators:
+#  -a filename = used to check if the file exists
+#Similary there are many other operators which we can check using MAN command

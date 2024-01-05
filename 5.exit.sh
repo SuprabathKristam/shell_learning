@@ -10,7 +10,7 @@ echo hello1
 # That information is called as status and also called as exit status
 # This information is a number from 0 to 255
 # where 0 is considered as success messages and non zero as failure
-# We can check this information using a variable ? that means $? can exit status of return or exit commands
+# We can check this information using a variable ? that means $? can give exit status of return or exit commands
 #return and exit functions by default will return value 0,However we can pas the value from 0 to 255 to
 #those commands and that value will be returned
 #Any value between 0 to 255 can be used by scripting person but values from 125+ (126 to 155) are used by
