@@ -36,10 +36,9 @@
 #Note : If anywhere in expression if you see variable provide double quotes
 
 
-if [ -z "$input"]; then
+if [ -z "$1"]; then
   echo "Input is empty"
 fi
-
 input=$1
 if [ "$input" = Devops ]; then
    echo "Welcome to DevOps training"
