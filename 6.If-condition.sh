@@ -31,7 +31,7 @@
  # != - > this will check if both strings are not same
  # Ex : [ a = b] [ a != b ] ,[ $x = abc ]
 
- input = $1
+input = $1
 if [ $1 = Devops ]; then
    echo "Welcome to DevOps training"
 fi
