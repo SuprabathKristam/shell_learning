@@ -24,7 +24,7 @@ done
 #If you want to control loop bases on number of values For loop be the choice.
 
 for course in Devops AWS Azure GCP Testing;do
-  echo Welcomme to -$course
+  echo Welcomme to -${course}   #here using $course is also same
 done
 
 #There are 2 loop control commands
