@@ -26,3 +26,7 @@ done
 for course in Devops AWS Azure GCP Testing;do
   echo Welcomme to -${course}
 done
+
+#There are 2 loop control commands
+# Break - When you want to stop the loop and come out of the loop use break
+#Continue - Skipping the remaining commands in the loop (com1;com2;com3) an starts the next iteration

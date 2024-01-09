@@ -54,3 +54,12 @@ fi
 #Operators:
 #  -a filename = used to check if the file exists
 #Similary there are many other operators which we can check using MAN command
+
+echo "## Break Example ##"
+i=10
+while [ "$i" -gt 0 ]; do
+  echo "Hello World"
+  i=$(($i-1))
+  break
+  echo "Hello"
+done
