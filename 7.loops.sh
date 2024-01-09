@@ -39,3 +39,12 @@ while [ "$i" -gt 0 ]; do
   break
   echo "Hello"
 done
+
+echo "## Continue Example"
+i=10
+while [ "$i" -gt 0 ]; do
+  echo "Hello world"
+  i=$(($i-1))
+  continue
+  echo "hello"
+done
