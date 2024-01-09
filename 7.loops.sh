@@ -10,7 +10,7 @@
 
 i=10
 while [ $i -gt 0 ]; do
-  echoo "Hello World"
+  echo "Hello World"
   i=$(($i-1))
 done
 
@@ -23,6 +23,6 @@ done
 
 #If you want to control loop bases on number of values For loop be the choice.
 
-for course in AWS Azure GCP Testing;do
+for course in Devops AWS Azure GCP Testing;do
   echo Welcomme to -${course}
 done
