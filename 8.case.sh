@@ -13,3 +13,6 @@ case $course in
     echo "unknow Training"
     ;;
 esac
+
+##Here only string comparision is done and not numeric comparision
+#However we are not going to use this in our current project
