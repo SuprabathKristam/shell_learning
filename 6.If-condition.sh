@@ -29,7 +29,7 @@
  #Operators
  # = , ==  -> this will check if both the string are same
  # != - > this will check if both strings are not same
- # -z -> This will hep to check if variable is empty
+ # -z -> This will help to check if variable is empty
 
  # Ex : [ a = b] [ a != b ] ,[ $x = abc ] , [ -z "$var" ]
 
